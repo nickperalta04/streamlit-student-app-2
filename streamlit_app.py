@@ -1,7 +1,7 @@
 import streamlit as st
 import psycopg2
 
-st.set_page_config(page_title="Student Enrollment App", page_icon="🎓")
+st.set_page_config(page_title="Student Enrollment App", page_icon="🎓")    
 
 def get_connection():
     return psycopg2.connect(st.secrets["DB_URL"])
